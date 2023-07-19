@@ -1,0 +1,357 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+#logo-img{
+    width: 125px;
+    margin-right: 10%;
+}
+.navbar-nav{
+    width: 100%;
+    justify-content: end;
+    gap: 2%;
+}
+.nav-link{
+  width:100%;
+}
+@media screen and (max-width : 1024px) {
+    .container{
+        margin-left: 1% !important;
+        align-self: center;
+    }
+
+}    
+@media screen and (max-width : 540px ) {
+    .container-fluid{
+        width: 100% !important;
+        
+    }
+
+}    
+.drop{
+    border: solid 2px #454545 !important;
+    border-radius: 10px;
+    
+    
+}
+.naaav{
+    position: fixed;
+    z-index: 2;
+    background-color: white !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.head{
+    display: block;
+    background-color: #fff;
+    height: fit-content;
+}
+.section{
+    margin-top: auto;
+    padding-top: 6rem;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    
+}
+.hero-container{
+    margin-top: 8%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    
+     
+
+}
+.hero-text-1{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    width: 29rem;
+    font-size: 2.5rem;
+    
+}
+@media screen and (max-width :1024px) {
+    .hero-text-1{
+        width: 100%;
+        font-size: 1rem;
+        padding-top: 2rem;
+    }
+    .hero-container{
+        text-align: center;
+    }
+    .second-hero{
+        font-size: 0.7rem;
+    }
+    .last-hero{
+        font-size: 0.5rem !important;
+        margin-top: -0.8rem;
+    }
+}
+.phone-photo{
+    width: 100%;
+    margin-top: -1rem;
+}
+@media screen and (max-width : 1024px) {
+    .phone-photo{
+        width: 100%;
+        margin-top: 1rem; 
+    
+}
+    
+    
+}
+.last-hero{
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 30px;
+    color: #8c8c8c;
+    letter-spacing: .01em;
+}
+.icons{
+    margin-right: 0.8rem;
+}
+@media screen and (max-width : 1024px) {
+    .icons{
+        
+        margin-right: 0.2rem; 
+    
+}
+  
+    
+}
+.btn1{
+    background-color: transparent;
+    color: #0D6EFD !important;
+    border-radius: 20px !important;
+    
+}
+@media screen and (max-width : 1024px) {
+    .btn1{
+        margin-left: -2rem;
+        align-items: center;
+        margin-top: 3%;
+        background-color: #0D6EFD !important;
+        color: #fff !important;
+        width: 260px;
+        text-align: left;
+        padding-left: 10%  !important;
+        
+    }
+    
+}
+.photo-slide{
+    padding-bottom: 8%;
+    height: 45rem!important;
+    width: 100% !important;
+    margin-top: 8% !important;
+    background-color: #f4f5f5;
+    display: flex;
+    gap: 5%;
+    justify-content: space-evenly;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 6%;
+    color: #fff;
+}
+.image{
+    width: 100%;
+    height: 100% !important;
+}
+.offer{
+    background-color: #e65f42;
+    width: 100%;
+    border-radius: 5%;
+}
+.inside-text-1{
+    position: relative;
+    top: -40%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 2rem !important;
+    text-align: center;
+}
+.inside-text-2{
+    position: relative;
+    top: -40%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.inside-text-3{
+    position: relative;
+    top: -40%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 0.8rem;
+}
+@media screen and (max-width : 1024px) {
+    .a{
+        display: none;
+    }
+
+}
+.inside-slide{
+    width: 100%;
+}
+.tim-icon{
+    position: relative;
+    top: -93%;
+    left: 10%;
+    height: 10%;
+}
+.payment{
+    position: relative;
+    top: -102%;
+    left: 30%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+.payment-detail{
+    position: relative;
+    top: -100%;
+    left: 10%;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 80%;
+    font-family: 'Poppins';
+}
+.offer-text{
+    position: relative;
+    color: #fff595;
+    top: -75%;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.offer-text-details {
+        position: relative;
+        color: #fff595;
+        left: 12%;
+        top: -75%;
+        width: 80%;
+        text-align: center;
+}
+.offer-image-1{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+
+}
+.offer-inside{
+    height: 120%;
+    position: relative;
+    top: -435%;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+
+}
+.button{
+    background-color: transparent;
+    border: solid 2px #0D6EFD !important;
+    color: #0D6EFD !important;
+    padding: 1% 2% !important;
+    border-radius: 4rem;
+    text-decoration: none !important;
+    font-size: 1rem;
+}
+.a{
+    padding-bottom: 5%;
+}
+.bg-container{
+    background-color: #f4f5f5;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+.radio{
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 4%;
+   
+}
+.img-slider{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8%;
+    height: 80%;
+    border-radius: 4%;
+}
+.radio-button{
+    margin: 2%;
+    height: 2rem;
+}
+input[type='radio'] { 
+    transform: scale(1); 
+}
+.b{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+@media screen and (min-width : 1024px) {
+    .b{
+        display: none !important;
+    }
+    
+}
+.footer{
+    display: flex;
+    background-color: #313233;
+    justify-content: center;
+    flex-direction: row;
+
+
+}
+.heading{
+    color: #fff;
+    font-weight: 600 ;
+    margin-bottom: 4%;
+
+}
+.elements-container{
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+}
+.elements{
+    color: #8c8c8c;
+    width: 100% !important;
+
+}
+@media screen and (max-width : 1024px) {
+    .botim,.downloads-cont{
+        width: 50%;
+    }
+    
+}
+.terms{
+    background-color: #141414;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    color: #fff !important;
+
+}
+.nav-link:hover{
+    color: #0D6EFD !important;
+}
+.button:hover{
+    background-color: #c2daff;
+
+    
+
+}
+@media screen and (max-width : 1024px){
+    #hidden{
+        display: none !important;
+    }
+    .terms{
+        display: block ;
+    }
+    
+}
